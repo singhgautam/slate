@@ -10,7 +10,7 @@ from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
 
 from shapes_3d import Shapes3D
-from illiteratedalle import IlliterateDALLE
+from slate import SLATE
 
 parser = argparse.ArgumentParser()
 
@@ -82,7 +82,7 @@ val_epoch_size = len(val_loader)
 
 log_interval = train_epoch_size // 5
 
-model = IlliterateDALLE(args)
+model = SLATE(args)
 
 if os.path.isfile(args.checkpoint_path):
     checkpoint = torch.load(args.checkpoint_path, map_location='cpu')

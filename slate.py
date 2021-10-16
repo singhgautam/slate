@@ -4,7 +4,7 @@ from slot_attn import SlotAttentionEncoder
 from transformer import PositionalEncoding, TransformerDecoder
 
 
-class IlliterateDALLE(nn.Module):
+class SLATE(nn.Module):
     def __init__(self, args):
         super().__init__()
 
