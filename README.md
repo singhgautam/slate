@@ -25,7 +25,7 @@ The training code produces Tensorboard logs. To see these logs, run Tensorboard 
 ### Code Files
 This repository provides the following files.
 - `train.py` contains the main code for running the training.
-- `illiteratedalle.py` provides the model class for SLATE.
+- `slate.py` provides the model class for SLATE.
 - `shapes_3d.py` contains the dataset class for 3D Shapes dataset.
 - `dvae.py` provides the encoder and the decoder for Discrete VAE.
 - `slot_attn.py` provides the model class for Slot Attention encoder.
