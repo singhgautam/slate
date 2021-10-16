@@ -1,7 +1,7 @@
 
-# Illiterate DALL-E
+# SLATE
 
-This is the official source code for _Illiterate DALL-E_ and the proposed decoder _Slot2Seq_. We provide the code for the model, the training code and a dataset loader for the 3D Shapes dataset. This code is implemented in Pytorch.
+This is the official source code for _SLATE_. We provide the code for the model, the training code and a dataset loader for the 3D Shapes dataset. This code is implemented in Pytorch.
 
 ### Dataset
 The current release provides a boilerplate code to train the model on the 3D Shapes dataset. The dataset class is provided in `shapes_3d.py`. You can edit or replace this class if you need to run the code on a different dataset. The 3D Shapes dataset can be downloaded from the official URL https://console.cloud.google.com/storage/browser/3d-shapes. This should produce a dataset file `3dshapes.h5`. During training, the path to this dataset file needs to be provided using the argument `--data_path`.
@@ -25,7 +25,7 @@ The training code produces Tensorboard logs. To see these logs, run Tensorboard 
 ### Code Files
 This repository provides the following files.
 - `train.py` contains the main code for running the training.
-- `illiteratedalle.py` provides the model class for Illiterate DALL-E and the Slot2Seq.
+- `illiteratedalle.py` provides the model class for SLATE.
 - `shapes_3d.py` contains the dataset class for 3D Shapes dataset.
 - `dvae.py` provides the encoder and the decoder for Discrete VAE.
 - `slot_attn.py` provides the model class for Slot Attention encoder.
