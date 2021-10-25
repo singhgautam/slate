@@ -23,8 +23,8 @@ parser.add_argument('--clip', type=float, default=1.0)
 parser.add_argument('--image_size', type=int, default=64)
 
 parser.add_argument('--checkpoint_path', default='checkpoint.pt.tar')
-parser.add_argument('--log_path', default='/data/sdb/local/gs790/idalle/outputs/ill-dalle-000')
-parser.add_argument('--data_path', default='/common/home/gs790/idalle/datasets/3dshapes.h5')
+parser.add_argument('--log_path', default='logs')
+parser.add_argument('--data_path', default='3dshapes.h5')
 
 parser.add_argument('--lr_dvae', type=float, default=3e-4)
 parser.add_argument('--lr_main', type=float, default=1e-4)

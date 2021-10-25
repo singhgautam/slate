@@ -3,6 +3,7 @@
 
 This is the official source code for _SLATE_. We provide the code for the model, the training code and a dataset loader for the 3D Shapes dataset. This code is implemented in Pytorch.
 
+Arxiv: https://arxiv.org/pdf/2110.11405.pdf <br>
 Project Page: https://sites.google.com/view/slate-autoencoder
 
 ### Dataset
