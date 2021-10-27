@@ -21,9 +21,9 @@ The training code produces Tensorboard logs. To see these logs, run Tensorboard 
 
 
 ### Hyperparameters of Interest
-- **Learning Rate** can be tuned using the training argument `--lr_main` and different choices can affect the characteristics of the object attention maps. Values 3e-4 and 1e-4 can be considered as good guesses.
+- **Learning Rate** can be tuned using the training argument `--lr_main` and different choices can affect the characteristics of the object attention maps. Values 3e-4 and 1e-4 can be considered as good guesses when trying different datasets.
 - **Number of Slots** can be tuned using the training argument `--num_slots`. Number of slots should be set higher than the number of objects you expect to see in the images.
-- **Number of Slot Attention Iterations** can be tuned using the training argument `--num_iterations`. In general, avoid setting this to a large value because too many iterations can prevent slots from learning to diversify and attach to different objects. At the same time, having too few iterations may not be enough for attention maps to refine properly. Some values that are worth trying are 3 and 7.
+- **Number of Slot Attention Iterations** can be tuned using the training argument `--num_iterations`. In general, avoid setting this to a large value because too many iterations can prevent slots from learning to diversify and attach to different objects. At the same time, having too few iterations may not be enough for attention maps to refine properly. Some values that are worth trying are 3 and 7 when trying different datasets.
 
 ### Code Files
 This repository provides the following files.
