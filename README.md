@@ -34,3 +34,15 @@ This repository provides the following files.
 - `slot_attn.py` provides the model class for Slot Attention encoder.
 - `transformer.py` provides the model classes for Transformer.
 - `utils.py` provides helper classes and functions for the implementation.
+
+### Citation
+```
+@misc{singh2021illiterate,
+      title={Illiterate DALL-E Learns to Compose}, 
+      author={Gautam Singh and Fei Deng and Sungjin Ahn},
+      year={2021},
+      eprint={2110.11405},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
