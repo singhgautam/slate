@@ -37,12 +37,12 @@ This repository provides the following files.
 
 ### Citation
 ```
-@misc{singh2021illiterate,
-      title={Illiterate DALL-E Learns to Compose}, 
+@inproceedings{
+      singh2022illiterate,
+      title={Illiterate DALL-E Learns to Compose},
       author={Gautam Singh and Fei Deng and Sungjin Ahn},
-      year={2021},
-      eprint={2110.11405},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      booktitle={International Conference on Learning Representations},
+      year={2022},
+      url={https://openreview.net/forum?id=h0OYV0We3oh}
 }
 ```
