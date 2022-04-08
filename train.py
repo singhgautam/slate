@@ -182,6 +182,8 @@ for epoch in range(start_epoch, args.epochs):
 
         image = image.cuda()
 
+        optimizer.zero_grad()
+
         (recon, cross_entropy, mse, attns) = model(image, tau, args.hard)
         
         loss = mse + cross_entropy
