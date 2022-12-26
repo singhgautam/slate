@@ -7,6 +7,9 @@ This is the official source code for _SLATE_. More details in the [paper](https:
 
 In this repository, we provide an implementation of the model, the training code and a dataset loader for the 3D Shapes dataset. This code is implemented in Pytorch.
 
+### Authors
+Gautam Singh and Fei Deng and Sungjin Ahn
+
 ### Dataset
 The current release provides code to train the model on the 3D Shapes dataset. The dataset class is provided in `shapes_3d.py`. You can edit or replace this class if you need to run the code on a different dataset. The 3D Shapes dataset can be downloaded from the [official URL](https://console.cloud.google.com/storage/browser/3d-shapes). This should produce a dataset file `3dshapes.h5`. During training, the path to this dataset file needs to be provided using the argument `--data_path`.
 
