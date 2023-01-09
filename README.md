@@ -1,5 +1,6 @@
 
 # SLATE
+*ICLR 2022*
 
 This is the official source code for _SLATE_. More details in the [paper](https://arxiv.org/pdf/2110.11405.pdf) and on the [project page](https://sites.google.com/view/slate-autoencoder).
 
